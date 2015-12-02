@@ -56,7 +56,6 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "O:/4-bit-adder-subtractor/Waveform.vwf"
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
 set_location_assignment PIN_AE8 -to D0A
 set_location_assignment PIN_AF9 -to D0B
@@ -72,17 +71,21 @@ set_location_assignment PIN_AG16 -to D1D
 set_location_assignment PIN_AE17 -to D1E
 set_location_assignment PIN_AF17 -to D1F
 set_location_assignment PIN_AD17 -to D1G
-set_location_assignment PIN_AC26 -to K
+set_location_assignment PIN_T9 -to K
 set_location_assignment PIN_AK5 -to Overflow
 set_location_assignment PIN_AJ6 -to Sign
-set_location_assignment PIN_AA23 -to B0
-set_location_assignment PIN_AB26 -to B1
-set_location_assignment PIN_AB25 -to B2
-set_location_assignment PIN_AC27 -to B3
-set_location_assignment PIN_AC24 -to A0
-set_location_assignment PIN_AC23 -to A1
-set_location_assignment PIN_AC25 -to A2
-set_location_assignment PIN_AD25 -to A3
+set_location_assignment PIN_AE27 -to B0
+set_location_assignment PIN_W5 -to B1
+set_location_assignment PIN_V10 -to B2
+set_location_assignment PIN_U9 -to B3
+set_location_assignment PIN_L5 -to A0
+set_location_assignment PIN_L4 -to A1
+set_location_assignment PIN_L7 -to A2
+set_location_assignment PIN_L8 -to A3
+set_location_assignment PIN_AF12 -to pin_name1
+set_location_assignment PIN_AC17 -to pin_name2
+set_global_assignment -name VECTOR_WAVEFORM_FILE "4-bit-adder.vwf"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/2014013432/4-bit-adder-subtractor/4-bit-adder.vwf"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
