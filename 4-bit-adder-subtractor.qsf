@@ -85,8 +85,9 @@ set_location_assignment PIN_L8 -to A3
 set_location_assignment PIN_AF12 -to pin_name1
 set_location_assignment PIN_AC17 -to pin_name2
 set_global_assignment -name VECTOR_WAVEFORM_FILE "4-bit-adder.vwf"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "D:/2014013432/4-bit-adder-subtractor/4-bit-adder.vwf"
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE "4-bit-adder-subtractor.vwf"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "O:/4-bit-adder-subtractor/4-bit-adder-subtractor.vwf"
